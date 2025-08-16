@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="fr">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>On recommence à coder</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <!-- ====== HEADER ====== -->
+    <header>
+      <h1>Bienvenue sur ma page de rentrée</h1>
+      <nav>
+        <a href="#about">À propos</a>
+        <a href="#features">Fonctionnalités</a>
+        <a href="#contact">Contact</a>
+      </nav>
+    </header>
+
+    <!-- ====== MAIN ====== -->
+    <main>
+      <section id="about">
+        <h2>À propos</h2>
+        <p>
+          Ceci est un petit site HTML/CSS/JS où je reprends mes marques avec le
+          code, hébergé gratuitement sur GitHub Pages 🌐.
+        </p>
+      </section>
+
+      <section id="features">
+        <h2>Fonctionnalités</h2>
+        <ul>
+          <li>✅ Simple et léger</li>
+          <li>✅ Responsive (s’adapte au mobile)</li>
+          <li>✅ Hébergé gratuitement</li>
+        </ul>
+      </section>
+
+      <section id="contact">
+        <h2>Contact</h2>
+        <form id="contactForm">
+          <input type="text" id="name" placeholder="Votre nom" required />
+          <input type="email" id="email" placeholder="Votre email" required />
+          <textarea
+            id="message"
+            placeholder="Votre message"
+            required
+          ></textarea>
+          <button type="submit">Envoyer</button>
+        </form>
+        <p id="formResponse"></p>
+      </section>
+    </main>
+
+    <!-- ====== FOOTER ====== -->
+    <footer>
+      <p>&copy; Re-code project ✨</p>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>
