@@ -3,18 +3,15 @@
   <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <title>On recommence à coder</title>
+    <title>Mon premier site 🚀</title>
     <link rel="stylesheet" href="style.css" />
   </head>
   <body>
-    <!-- ====== HEADER ====== -->
-    <header>
-      <h1>Bienvenue sur ma page de rentrée</h1>
-      <nav>
-        <a href="#about">À propos</a>
-        <a href="#features">Fonctionnalités</a>
-        <a href="#contact">Contact</a>
-      </nav>
+    <!-- ====== HERO SECTION ====== -->
+    <header class="hero">
+      <h1>Bienvenue sur mon site 🎉</h1>
+      <p>Un projet HTML/CSS/JS simple et moderne</p>
+      <button id="ctaButton">Cliquez-moi</button>
     </header>
 
     <!-- ====== MAIN ====== -->
@@ -22,18 +19,23 @@
       <section id="about">
         <h2>À propos</h2>
         <p>
-          Ceci est un petit site HTML/CSS/JS où je reprends mes marques avec le
-          code, hébergé gratuitement sur GitHub Pages 🌐.
+          Ce site est une démo pour apprendre à utiliser VS Code, GitHub et un
+          serveur local. Il est 100% statique et peut être publié gratuitement
+          avec GitHub Pages 🌐.
         </p>
       </section>
 
       <section id="features">
-        <h2>Fonctionnalités</h2>
-        <ul>
-          <li>✅ Simple et léger</li>
-          <li>✅ Responsive (s’adapte au mobile)</li>
-          <li>✅ Hébergé gratuitement</li>
-        </ul>
+        <h2>Exemple de projet</h2>
+        <div class="card">
+          <h3>Carte de démonstration</h3>
+          <p>Voici un bloc stylé avec un effet hover ✨</p>
+        </div>
+      </section>
+
+      <section id="dynamic">
+        <h2>Date du jour</h2>
+        <p id="dateArea">Chargement...</p>
       </section>
 
       <section id="contact">
@@ -54,7 +56,7 @@
 
     <!-- ====== FOOTER ====== -->
     <footer>
-      <p>&copy; Re-code project ✨</p>
+      <p>&copy; <span id="year"></span> - Mon premier site ✨</p>
     </footer>
 
     <script src="script.js"></script>
